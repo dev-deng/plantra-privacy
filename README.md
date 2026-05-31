@@ -6,4 +6,4 @@ This repository hosts the privacy policy for the **Plantra** Android app.
 
 ---
 
-Planrtra is a local-only plant tracking app. No data leaves the device.
+Plantra is a local-only dietary diversity tracking app. No data leaves the device.
