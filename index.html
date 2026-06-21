@@ -72,6 +72,10 @@
       dir eingestellten Erinnerungen.</li>
     <li><strong>Start abgeschlossen</strong> (<code>RECEIVE_BOOT_COMPLETED</code>): um eingestellte
       Erinnerungen nach einem Geräte-Neustart wiederherzustellen.</li>
+    <li><strong>Netzwerkstatus abrufen</strong> (<code>ACCESS_NETWORK_STATE</code>): wird systembedingt
+      durch die Google-Play-In-App-Review-Komponente hinzugefügt. Sie erlaubt lediglich die Prüfung, ob
+      eine Netzwerkverbindung besteht — die App überträgt darüber keine Daten und fordert keine
+      <code>INTERNET</code>-Berechtigung an.</li>
   </ul>
 
   <h2>6. Backups und Exporte (durch dich gesteuert)</h2>
@@ -159,6 +163,9 @@
       you have set.</li>
     <li><strong>Boot completed</strong> (<code>RECEIVE_BOOT_COMPLETED</code>): to restore your reminders
       after a device restart.</li>
+    <li><strong>View network state</strong> (<code>ACCESS_NETWORK_STATE</code>): added by the Google Play
+      In-App Review component. It only allows checking whether a network connection exists — the app
+      transmits no data through it and requests no <code>INTERNET</code> permission.</li>
   </ul>
 
   <h2>6. Backups and exports (controlled by you)</h2>
