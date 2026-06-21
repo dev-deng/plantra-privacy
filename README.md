@@ -8,18 +8,17 @@ into the separate GitHub Pages repo **`dev-deng/plantra-privacy`**, which serves
 | Document | Live URL | Source in this repo |
 |---|---|---|
 | Privacy Policy | https://dev-deng.github.io/plantra-privacy/ | `docs/privacy/index.html` |
-| Terms of Use | https://dev-deng.github.io/plantra-privacy/terms.html | `docs/legal/terms.html` |
+| Terms of Use | https://dev-deng.github.io/plantra-privacy/terms.html | `docs/privacy/terms.html` |
 
 Both pages are DE + EN and link to each other. The Terms URL must match the `terms_url` string
 (`app/src/main/res/values/strings.xml`, `translatable="false"`).
 
 ## Deployment
 
-Manual sync (no CI in this repo): copy the source files into the `zytra-privacy` repo root as
+Manual sync (no CI in this repo): copy the source files into the `plantra-privacy` repo root as
 `index.html` (privacy) and `terms.html` (terms), then verify both URLs load and the cross-links work.
 When the data model changes, update `index.html` (and the date); for legally relevant Terms changes,
-update `terms.html`, bump the date/version, and raise `UserPreferences.CURRENT_TERMS_VERSION` to force
-renewed in-app consent.
+update `terms.html`, bump the date/version.
 
 The Play Console **Privacy Policy** field points to the privacy URL only; the Terms page is linked
 from it but is not a separate mandatory field.
