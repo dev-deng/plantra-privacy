@@ -31,19 +31,21 @@
   <!-- ════════════════════════ DEUTSCH ════════════════════════ -->
   <section id="de">
   <h1>Datenschutzerklärung</h1>
-  <p class="meta">App: <strong>Plantra</strong> (<code>com.plantra</code>) &middot; Stand: 31.05.2026</p>
+  <p class="meta">App: <strong>Plantra</strong> (<code>com.plantra</code>) &middot; Stand: 21.06.2026</p>
 
   <h2>1. Verantwortlicher</h2>
   <p>
-    DevDeng<br>
+    David Engels (DevDeng)<br>
+    Homburger Str. 3<br>
+    50969 Köln<br>
     Kontakt: <a href="mailto:dev.deng26@gmail.com">dev.deng26@gmail.com</a>
   </p>
 
   <h2>2. Überblick</h2>
   <p>
-    Plantra ist eine App zum Tracken pflanzlicher Ernährungsvielfalt. <strong>Plantra erhebt,
-    sammelt oder überträgt keine personenbezogenen Daten.</strong> Alle Daten, die du in der App
-    erfasst, verbleiben ausschließlich lokal auf deinem Gerät. Es gibt kein Nutzerkonto, keine
+    Plantra ist eine App zum Tracken pflanzlicher Ernährungsvielfalt. <strong>Plantra verarbeitet die
+    von dir eingegebenen Daten ausschließlich lokal auf deinem Gerät.</strong> Der Anbieter erhält
+    keinen Zugriff auf diese Daten und übermittelt sie nicht an Dritte. Es gibt kein Nutzerkonto, keine
     Cloud-Anbindung und kein Tracking.
   </p>
 
@@ -55,18 +57,45 @@
     <li>App-Einstellungen (z. B. Dark-Mode, Erinnerungen, Auto-Backup-Konfiguration, Achievements).</li>
   </ul>
   <p>
-    Diese Daten liegen in einer app-internen Datenbank bzw. in lokalen Einstellungs-Dateien, auf die
-    andere Apps keinen Zugriff haben. Es findet <strong>keine Übertragung an den Anbieter oder
-    Dritte</strong> statt.
+    Je nach deinen Eingaben können dabei auch personenbezogene oder gesundheitsbezogene Angaben
+    entstehen (z. B. Ernährungsgewohnheiten). Genau deshalb verbleiben diese Daten ausschließlich in
+    einer app-internen Datenbank bzw. in lokalen Einstellungs-Dateien auf deinem Gerät, auf die andere
+    Apps keinen Zugriff haben. Es findet <strong>keine Übertragung an den Anbieter oder Dritte</strong>
+    statt.
   </p>
 
-  <h2>4. Keine Internet-Datenübertragung</h2>
+  <h2>4. Zweck und Rechtsgrundlage</h2>
   <p>
-    Die App fordert <strong>keine Internet-Berechtigung</strong> an und sendet von sich aus keine
-    Daten an Server. Eine Verarbeitung deiner Ernährungsdaten außerhalb deines Geräts findet nicht statt.
+    Zweck der Verarbeitung ist die Bereitstellung der App-Funktion: das lokale Erfassen und Auswerten
+    deiner pflanzlichen Ernährungsvielfalt. Die Verarbeitung findet ausschließlich lokal auf deinem
+    Gerät statt; der Anbieter hat keinen Zugriff auf diese Daten. Soweit eine Verarbeitung dem Anbieter
+    zuzurechnen wäre, stützt sie sich auf die Bereitstellung der von dir gewünschten Funktion sowie das
+    berechtigte Interesse an deren Betrieb (Art. 6 Abs. 1 lit. b und f DSGVO). Zu keinem Zeitpunkt
+    fließen dabei Daten an Server des Anbieters; die rein lokale Umsetzung ist Ausdruck von Datenschutz
+    durch Technikgestaltung (Privacy by Design, Art. 25 DSGVO).
   </p>
 
-  <h2>5. Berechtigungen</h2>
+  <h2>5. Empfänger</h2>
+  <p>
+    Der Anbieter übermittelt <strong>keine</strong> personenbezogenen Daten an sich oder sonstige
+    Dritte. Eine Ausnahme bildet der von Google bereitgestellte Bewertungsdialog (siehe Ziffer 10), bei
+    dem Google als eigener Verantwortlicher Daten verarbeiten kann.
+  </p>
+
+  <h2>6. Speicherdauer</h2>
+  <p>
+    Die lokal gespeicherten Daten verbleiben auf deinem Gerät, bis du sie löschst oder die App
+    deinstallierst.
+  </p>
+
+  <h2>7. Keine Internet-Datenübertragung</h2>
+  <p>
+    Die App fordert <strong>keine Internet-Berechtigung</strong> an und sendet von sich aus keine Daten
+    an den Anbieter oder an Server. Eine Verarbeitung deiner Ernährungsdaten außerhalb deines Geräts
+    findet nicht statt.
+  </p>
+
+  <h2>8. Berechtigungen</h2>
   <ul>
     <li><strong>Benachrichtigungen</strong> (<code>POST_NOTIFICATIONS</code>): nur zum Anzeigen der von
       dir eingestellten Erinnerungen.</li>
@@ -76,46 +105,63 @@
       durch die Google-Play-In-App-Review-Komponente hinzugefügt. Sie erlaubt lediglich die Prüfung, ob
       eine Netzwerkverbindung besteht — die App überträgt darüber keine Daten und fordert keine
       <code>INTERNET</code>-Berechtigung an.</li>
+    <li><strong>Hintergrundverarbeitung</strong> (<code>WAKE_LOCK</code>, <code>FOREGROUND_SERVICE</code>
+      sowie eine systeminterne Empfänger-Berechtigung): werden durch die Android-Komponente
+      <em>WorkManager</em> hinzugefügt und dienen der zuverlässigen Ausführung geplanter Aufgaben auf
+      dem Gerät (Erinnerungen, automatisches Backup). Es werden darüber keine Daten übertragen.</li>
   </ul>
 
-  <h2>6. Backups und Exporte (durch dich gesteuert)</h2>
+  <h2>9. Backups und Exporte (durch dich gesteuert)</h2>
   <ul>
     <li><strong>Manuelle Exporte</strong> (JSON-Backup, CSV, PDF-Bericht): Du löst sie selbst aus und
       wählst das Ziel (z. B. Teilen oder einen Ordner deiner Wahl). Nur dann verlassen die Daten das
-      Gerät – auf deine Veranlassung.</li>
+      Gerät – auf deine Veranlassung. Nach einem Export liegt die weitere Verarbeitung der Datei
+      außerhalb des Einflussbereichs des Anbieters.</li>
     <li><strong>Automatisches Backup in der App:</strong> optional; schreibt eine Backup-Datei in einen
       von dir gewählten Ordner.</li>
     <li><strong>Android-System-Backup:</strong> Falls du in den Android-Einstellungen Geräte-Backups
-      aktiviert hast, kann das Betriebssystem App-Daten in dein persönliches Google-Konto sichern. Dies
-      steuerst du über das Betriebssystem, nicht über Plantra; es unterliegt der Datenschutzerklärung
-      von Google.</li>
+      aktiviert hast, kann das Betriebssystem App-Daten in dein persönliches Google-Konto sichern.
+      Inhalt und Umfang eines solchen Backups werden ausschließlich durch das Betriebssystem bestimmt;
+      du steuerst dies über das Betriebssystem, nicht über Plantra. Es unterliegt der
+      Datenschutzerklärung von Google.</li>
   </ul>
 
-  <h2>7. Bewertungsdialog (Google Play In-App-Review)</h2>
+  <h2>10. Bewertungsdialog (Google Play In-App-Review)</h2>
   <p>
     Die App kann gelegentlich den offiziellen Bewertungsdialog von Google Play anzeigen. Dabei werden
-    <strong>keine</strong> deiner App- oder Ernährungsdaten übertragen; der Dialog wird von Google Play
-    bereitgestellt und unterliegt der Datenschutzerklärung von Google.
+    <strong>keine</strong> deiner App- oder Ernährungsdaten von der App übertragen; der Dialog wird von
+    <strong>Google Ireland Limited</strong> (Gordon House, Barrow Street, Dublin 4, Irland) als eigenem
+    Verantwortlichen bereitgestellt. Dabei kann Google technisch bedingte Verbindungsdaten wie deine
+    IP-Adresse verarbeiten und nach seiner
+    <a href="https://policies.google.com/privacy">Datenschutzerklärung</a> nutzen. Rechtsgrundlage für
+    die Einbindung des Dialogs ist das berechtigte Interesse des Anbieters am Erhalt von App-Bewertungen
+    (Art. 6 Abs. 1 lit. f DSGVO).
   </p>
 
-  <h2>8. Kinder</h2>
-  <p>Die App richtet sich nicht gezielt an Kinder und erhebt keine Daten von Kindern.</p>
+  <h2>11. Kinder</h2>
+  <p>Die App richtet sich nicht gezielt an Kinder. Der Anbieter erhält keinen Zugriff auf Daten von Nutzerinnen und Nutzern.</p>
 
-  <h2>9. Deine Rechte</h2>
+  <h2>12. Deine Rechte</h2>
   <p>
-    Da keine personenbezogenen Daten an uns übertragen werden, liegen bei uns keine deiner Daten vor,
-    die wir auskunfts-, berichtigungs- oder löschpflichtig verwalten könnten. Du hast jederzeit die
-    volle Kontrolle über die lokal gespeicherten Daten und kannst sie in der App bzw. über die
-    Android-Einstellungen („App-Daten löschen") oder durch Deinstallation vollständig entfernen.
+    Dir stehen die Betroffenenrechte der DSGVO zu: Auskunft (Art. 15), Berichtigung (Art. 16), Löschung
+    (Art. 17), Einschränkung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21). Da der
+    Anbieter keinen Zugriff auf deine ausschließlich lokal gespeicherten Daten hat, übst du diese Rechte
+    in der Praxis selbst aus — du kannst deine Daten jederzeit in der App bzw. über die
+    Android-Einstellungen („App-Daten löschen") oder durch Deinstallation einsehen, ändern und
+    vollständig entfernen.
+  </p>
+  <p>
+    Unabhängig davon hast du das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren
+    (Art. 77 DSGVO).
   </p>
 
-  <h2>10. Änderungen</h2>
+  <h2>13. Änderungen</h2>
   <p>
     Bei künftigen App-Versionen kann diese Erklärung angepasst werden. Die jeweils aktuelle Fassung ist
     unter dieser URL abrufbar; das Datum oben weist den Stand aus.
   </p>
 
-  <h2>11. Kontakt</h2>
+  <h2>14. Kontakt</h2>
   <p>Fragen zum Datenschutz: <a href="mailto:dev.deng26@gmail.com">dev.deng26@gmail.com</a></p>
   </section>
 
@@ -124,19 +170,21 @@
   <!-- ════════════════════════ ENGLISH ════════════════════════ -->
   <section id="en">
   <h1>Privacy Policy</h1>
-  <p class="meta">App: <strong>Plantra</strong> (<code>com.plantra</code>) &middot; Last updated: 2026-05-31</p>
+  <p class="meta">App: <strong>Plantra</strong> (<code>com.plantra</code>) &middot; Last updated: 2026-06-21</p>
 
   <h2>1. Data controller</h2>
   <p>
-    DevDeng<br>
+    David Engels (DevDeng)<br>
+    Homburger Str. 3<br>
+    50969 Köln, Germany<br>
     Contact: <a href="mailto:dev.deng26@gmail.com">dev.deng26@gmail.com</a>
   </p>
 
   <h2>2. Overview</h2>
   <p>
-    Plantra is an app for tracking plant-based dietary diversity. <strong>Plantra does not collect,
-    gather or transmit any personal data.</strong> All data you enter in the app stays exclusively on
-    your device. There is no user account, no cloud connection and no tracking.
+    Plantra is an app for tracking plant-based dietary diversity. <strong>Plantra processes the data you
+    enter exclusively locally on your device.</strong> The provider has no access to this data and does
+    not transmit it to third parties. There is no user account, no cloud connection and no tracking.
   </p>
 
   <h2>3. What data does the app process – and where?</h2>
@@ -147,17 +195,41 @@
     <li>app settings (e.g. dark mode, reminders, auto-backup configuration, achievements).</li>
   </ul>
   <p>
-    This data lives in an app-internal database and in local settings files that other apps cannot
-    access. <strong>No transfer to the provider or to third parties</strong> takes place.
+    Depending on your entries, this may include personal or health-related information (e.g. dietary
+    habits). That is precisely why this data remains exclusively in an app-internal database and in
+    local settings files on your device that other apps cannot access. <strong>No transfer to the
+    provider or to third parties</strong> takes place.
   </p>
 
-  <h2>4. No internet data transfer</h2>
+  <h2>4. Purpose and legal basis</h2>
   <p>
-    The app requests <strong>no internet permission</strong> and does not send any data to servers on
-    its own. Your dietary data is never processed off your device.
+    The purpose of processing is to provide the app's function: recording and analyzing your plant-based
+    dietary diversity locally. Processing takes place exclusively locally on your device; the provider
+    has no access to this data. Insofar as any processing were attributable to the provider, it is based
+    on the provision of the function you requested and the legitimate interest in operating it
+    (Art. 6(1)(b) and (f) GDPR). At no point does any data flow to the provider's servers; this purely
+    local design reflects data protection by design (Privacy by Design, Art. 25 GDPR).
   </p>
 
-  <h2>5. Permissions</h2>
+  <h2>5. Recipients</h2>
+  <p>
+    The provider transmits <strong>no</strong> personal data to itself or any other third parties. One
+    exception is the rating dialog provided by Google (see section 10), where Google may process data as
+    an independent controller.
+  </p>
+
+  <h2>6. Storage period</h2>
+  <p>
+    The locally stored data remains on your device until you delete it or uninstall the app.
+  </p>
+
+  <h2>7. No internet data transfer</h2>
+  <p>
+    The app requests <strong>no internet permission</strong> and does not send any data to the provider
+    or to servers on its own. Your dietary data is never processed off your device.
+  </p>
+
+  <h2>8. Permissions</h2>
   <ul>
     <li><strong>Notifications</strong> (<code>POST_NOTIFICATIONS</code>): only to display the reminders
       you have set.</li>
@@ -166,45 +238,60 @@
     <li><strong>View network state</strong> (<code>ACCESS_NETWORK_STATE</code>): added by the Google Play
       In-App Review component. It only allows checking whether a network connection exists — the app
       transmits no data through it and requests no <code>INTERNET</code> permission.</li>
+    <li><strong>Background processing</strong> (<code>WAKE_LOCK</code>, <code>FOREGROUND_SERVICE</code>
+      and an internal receiver permission): added by the Android <em>WorkManager</em> component for the
+      reliable execution of scheduled on-device tasks (reminders, automatic backup). No data is
+      transmitted through them.</li>
   </ul>
 
-  <h2>6. Backups and exports (controlled by you)</h2>
+  <h2>9. Backups and exports (controlled by you)</h2>
   <ul>
     <li><strong>Manual exports</strong> (JSON backup, CSV, PDF report): you trigger them yourself and
       choose the destination (e.g. share or a folder of your choice). Only then does data leave the
-      device – at your request.</li>
+      device – at your request. After an export, any further processing of the file is outside the
+      provider's control.</li>
     <li><strong>Automatic backup in the app:</strong> optional; writes a backup file to a folder you
       select.</li>
     <li><strong>Android system backup:</strong> if you have enabled device backups in your Android
-      settings, the operating system may back up app data to your personal Google account. You control
-      this via the operating system, not via Plantra; it is subject to Google's privacy policy.</li>
+      settings, the operating system may back up app data to your personal Google account. The content
+      and scope of such a backup are determined solely by the operating system; you control this via the
+      operating system, not via Plantra. It is subject to Google's privacy policy.</li>
   </ul>
 
-  <h2>7. Rating dialog (Google Play In-App Review)</h2>
+  <h2>10. Rating dialog (Google Play In-App Review)</h2>
   <p>
     The app may occasionally show the official Google Play rating dialog. <strong>None</strong> of your
-    app or dietary data is transmitted in the process; the dialog is provided by Google Play and is
-    subject to Google's privacy policy.
+    app or dietary data is transmitted by the app in the process; the dialog is provided by
+    <strong>Google Ireland Limited</strong> (Gordon House, Barrow Street, Dublin 4, Ireland) as an
+    independent controller. In doing so, Google may process technically necessary connection data such
+    as your IP address and use it in accordance with its
+    <a href="https://policies.google.com/privacy">privacy policy</a>. The legal basis for embedding the
+    dialog is the provider's legitimate interest in receiving app ratings (Art. 6(1)(f) GDPR).
   </p>
 
-  <h2>8. Children</h2>
-  <p>The app is not directed at children and does not collect data from children.</p>
+  <h2>11. Children</h2>
+  <p>The app is not directed at children. The provider has no access to any user's data.</p>
 
-  <h2>9. Your rights</h2>
+  <h2>12. Your rights</h2>
   <p>
-    Since no personal data is transmitted to us, we hold none of your data that we could be required to
-    disclose, correct or delete. You always have full control over the locally stored data and can
-    remove it completely within the app, via the Android settings ("Clear app data") or by uninstalling
-    the app.
+    You have the data-subject rights under the GDPR: access (Art. 15), rectification (Art. 16), erasure
+    (Art. 17), restriction (Art. 18), data portability (Art. 20) and objection (Art. 21). Since the
+    provider has no access to your exclusively locally stored data, you exercise these rights yourself in
+    practice — you can view, change and completely remove your data at any time within the app, via the
+    Android settings ("Clear app data") or by uninstalling the app.
+  </p>
+  <p>
+    Regardless of this, you have the right to lodge a complaint with a data-protection supervisory
+    authority (Art. 77 GDPR).
   </p>
 
-  <h2>10. Changes</h2>
+  <h2>13. Changes</h2>
   <p>
     This policy may be updated for future app versions. The current version is always available at this
     URL; the date above indicates its status.
   </p>
 
-  <h2>11. Contact</h2>
+  <h2>14. Contact</h2>
   <p>Privacy questions: <a href="mailto:dev.deng26@gmail.com">dev.deng26@gmail.com</a></p>
   </section>
 
